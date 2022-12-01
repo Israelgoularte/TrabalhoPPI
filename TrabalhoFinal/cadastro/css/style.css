@@ -1,0 +1,69 @@
+body{
+    margin: -20px;
+    padding: -1px;
+    background-color: silver;
+    border: 0;
+}
+header {
+    background-color:#00CED1;
+    color: black;
+    height: 60px;
+    text-align: center;
+    vertical-align: baseline;
+    line-height: 60px;
+    top: 0;
+}
+
+nav{
+    background-color: #00CED1;
+    color: black;
+    margin-bottom: 0;
+    position: sticky;
+    top:0 ;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+nav a{
+    color: inherit;
+}
+
+nav section{
+    margin-left: 40px;
+}
+
+nav section span{
+    margin-left: 100px;
+}
+main {
+    margin: 3% auto;
+    width: 500px;
+}
+
+.loginBox {
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.loginBox form div {
+    margin: 20px 0;
+}
+
+.loginBox form input {
+    width: 100%;
+    height: 28px;
+    margin: 5px 0 0 0;
+    background: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    color: black;
+}
+
+.loginBox span {
+    color: red;
+}

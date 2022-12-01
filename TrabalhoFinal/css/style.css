@@ -1,0 +1,153 @@
+body{/*ajusta a pagina e muda a cor do fundo*/
+    margin: -20px;
+    padding: -1px;
+    background-color:  whitesmoke;
+    border: 0;
+}
+#page {
+    margin: 40px auto;
+    padding: 0 1em;
+    max-width: 61.75em;  
+}
+
+header {/*muda a cor de fundo do titulo principal e o alinhamento dele*/
+    background-color:#00CED1;
+    color: black;
+    height: 60px;
+    text-align: center;
+    vertical-align: baseline;
+    line-height: 60px;
+    top: 0;
+}
+
+nav{/*muda a cor de fundo do nav e o alinhamento*/
+    background-color: #00CED1;
+    color: black;
+    margin-bottom: 0;
+    position: sticky;
+    top:0 ;
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+
+nav a{ /*muda a cor dos link na nav*/
+    color: inherit;
+    margin-left: 3px;
+}
+nav img{
+    width: 100px;
+    height: 55px;
+
+}
+
+nav section{/*centraliza o nav*/
+   margin-left: 40px;
+   line-height: 40px;
+
+}
+
+
+nav section span{/*distancia entre os a do nav mas não está funcionando no login/cadastro*/
+    margin-left: 90px;
+
+}
+
+
+main { /*centraliza o main*/
+    width: 85%;
+    background-color: transparent;
+    margin: 5px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.menubar{
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.menubar section{
+    text-align: left;
+}
+.menubar section div{
+    display: inline-block;
+    
+}
+.menubar section div label{
+    margin-left: 90px ;
+    
+}
+
+.card { /*Coloca as linhas divisorias entre os cards,coloca cor em toda celula,muda o h2,coloca o figcapion menor, diminui da fonte */
+    display: inline-table;
+    font-family: Garamond;
+    font-size: 80%;
+    width: 20%;/*muda um pouco o alinhamento do h2*/
+    background-color: #F5FFFA;
+    padding: 0px;/*a img prinical encosta na borda ou nao*/
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    margin: 4px auto;
+
+}
+
+
+.card section{/*Coloca o h2 para frente um pouco mais longe da borda do card*/
+    margin:2%
+}
+
+.card section p strong{/*troca a cor preço */
+  
+   color: #00FF00;
+}
+
+
+.card section p{/*formata os p de dentro card*/
+    color: #A9A9A9;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.imginfo{ /*muda o tamanho das imagemns dentro do ul>li*/
+    width: 30px;
+    height: 30px;
+}
+
+.imgpral{ /*muda o tamanho das imagemns dentro da imagem principal*/
+    width: 350px;
+    height: 200px;
+}
+
+.card li{/*tira o ponto do li*/
+    list-style-type: none;
+    margin-left: -30px;
+    text-align: left ;
+   
+}
+
+.card a{
+    color: black;
+}
+
+Figcaption{/*formata a fonte,tamanho e cor de todos os figcaption*/
+    color: #A9A9A9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 2%;
+    margin-top: 1%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+

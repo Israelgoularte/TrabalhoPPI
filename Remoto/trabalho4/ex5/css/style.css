@@ -1,0 +1,88 @@
+body{
+    margin: -20px;
+    padding: -1px;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(8, 169, 83);
+    color: rgb(7, 4, 108);
+    height: 60px;
+    text-align: center;
+    vertical-align: baseline;
+    line-height: 60px;
+    top: 0;
+}
+
+
+nav 
+{
+    margin-bottom: 0;
+    text-align: center;
+    position: sticky;
+    top:0 ;
+    width: 100%;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+
+}
+
+nav button {
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    background-color: inherit;
+    height: 3px;
+    margin: 0 auto;
+}
+
+nav button:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button.buttonActive {
+    font-weight: bold;
+    color: blue;
+}
+
+.tabs section {
+    display: none;
+}
+
+section.tabActive {
+    display: block;
+}
+
+body {
+    background-color: lightgray;
+}
+
+
+nav ul > li {
+    display: inline-block;
+}
+
+.tabs {
+    width: 600px;
+    background-color: whitesmoke;
+    margin: 5px auto;
+    padding: 30px;
+    border: 2px solid gray;
+    border-radius: 2px;
+}
+
+.tabs section h2 {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.tabs section p {
+    line-height: 25px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}

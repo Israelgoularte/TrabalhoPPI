@@ -1,0 +1,122 @@
+body{
+    margin: -20px;
+    padding: -1px;
+    background-color: black;
+    border: 0;
+}
+header {
+    background-color: rgb(197, 193, 0);
+    color: black;
+    height: 60px;
+    text-align: center;
+    vertical-align: baseline;
+    line-height: 60px;
+    top: 0;
+}
+
+
+nav 
+{
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+    position: sticky;
+    top:0 ;
+    width: 100%;
+    text-align: center;
+    border: 1px solid gray;
+
+}
+
+nav button {
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    background-color: black;
+    color: white;
+    height: 20px;
+    margin: 0 auto;
+}
+
+nav button:hover {
+    color: rgb(255, 170, 0);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button.buttonActive {
+    font-weight: bold;
+    color: rgb(197, 193, 0);
+}
+
+footer{
+    color: white;
+    margin: 5px auto;
+    padding: 30px;
+    border: 0 solid gray;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.tabs section {
+    display: none;
+}
+
+section.tabActive {
+    display: block;
+}
+
+body {
+    background-color: rgb(22, 20, 0);
+}
+
+
+nav ul > li {
+    display: inline-block;
+}
+
+.tabs {
+    width: 600px;
+    background-color: whitesmoke;
+    margin: 5px auto;
+    padding: 30px;
+    border: 2px solid gray;
+    border-radius: 2px;
+}
+
+.contato {
+    width: 600px;
+    background-color: whitesmoke;
+    margin: -30px auto;
+    padding: 30px;
+    border: 2px solid gray;
+    border-radius: 2px;
+    color: black;
+}
+
+.tabs section h2 {
+    color: rgb(197, 193, 0);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.tabs section h3 {
+    color: rgb(35, 23, 0);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.tabs section p {
+    line-height: 25px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+a {
+    color: rgb(26, 18, 1);
+}
+
+

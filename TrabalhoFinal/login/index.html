@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+ </head>
+ <body>
+    <header>
+        <h1>Meu Imovel</h1>
+    </header>
+
+    
+    <nav>
+        <section>
+            <a href="../index.html">Inicio</a>
+
+            <span>
+                <a href="../cadastro/index.html">Cadastre-se</a>
+            </span>
+        </section>
+    </nav>
+    <main class="loginbox">
+        <form action="login.php" method="post">
+        <div>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+        </div>
+        <button>Login</button>
+        <section>
+            <a href="../cadastro/index.html">Cadastre-se</a>
+            <a href="">Esqueci a Senha</a>
+        </section>
+        </form>
+    </main>
+    
+ </body>
+ </html>

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: rgba(221, 221, 221, 0.871);
+    border-radius: 5px;
+    border: 2px solid rgba(204, 204, 204, 0.605);
+    padding: 50px;
+    position: absolute;
+}
+
+div {
+    margin: auto;
+}
+
+li {
+    background-color: #bfdced78;
+    border: 2px solid #a9bcdbe5;
+    border-radius: 5px;
+    padding: 5px;
+    width: 270px;
+}
+
+li > button {
+    font-size: smaller;
+    float: right;
+    color: red;
+    border: none;
+    background-color: rgb(189, 217, 240);
+    cursor: pointer;
+}
